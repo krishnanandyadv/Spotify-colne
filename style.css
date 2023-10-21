@@ -1,0 +1,245 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+#navbar{
+    /* position: relative; */
+    display: flex;
+    background-color: black;
+    /* padding: 10px;s */
+    /* margin-top: 10px; */
+    z-index: 2;
+    position: sticky;
+    top:0px;
+    /* overflow: hidden; */
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width:1550px;
+    border-bottom: 1px solid white;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navitems1{
+ position: absolute;
+ left: 20px;
+ top: 8px;
+}
+#navitems2{
+    position: relative;
+    left: 50px;
+    top: 11px;
+}
+#navitems3{
+ position: relative;
+ left: 130px;
+ bottom: 6px;
+}
+#navitems4{
+    position: relative;
+    left: 1170px;
+    bottom: 27px;
+}
+#navitems6{
+    position: relative;
+    left: 1330px;
+    bottom: 46px;
+}
+#navitems5{
+    position: relative;
+    left: 1470px;
+    bottom: 108px;
+    
+}
+#nav5{
+    border-radius: 20px;
+}
+#navitems7{
+    position: relative;
+    left: 1390px;
+    bottom: 75px;
+}
+#body1{
+    display: flex;
+}
+#body11{
+    height: 240vh;
+    width: 70%;
+    border: 2px solid white;
+}
+#body12{
+    height: 240vh;
+    width: 30%;
+    border: 2px solid white;
+    /* justify-content: space-around; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#body12::-webkit-scrollbar{
+    width: 0;
+}
+#b1{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+#b2{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+#b3{
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+.b11{
+    transition: 0.3s ease-in-out;
+}
+.b11:hover{
+    transform: scale(1.1);
+}
+#bo1{
+    display: flex;
+}
+ #h11{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+#khushi{
+    width: 450px;
+    /* border-right:2px solid white ; */
+    /* padding-right: 100px; */
+    position: relative;
+    top: 100px;
+    right: 175px;
+}
+#khushi1{
+    width: 400px;
+    /* border-right:2px solid white ; */
+    /* padding-right: 100px; */
+    position: relative;
+    top: 100px;
+    /* left: 0px; */
+    right: 105px;
+}
+.p1{
+    position: relative;
+    left: 120px;
+    bottom: 90px;
+    font-size: x-large;
+
+}
+
+.heart{
+    position: relative;
+    left: 170px;
+    top: 15px;
+}
+#q{
+    position: relative;
+    left: 10px;
+    position: sticky;
+    /* z-index: 3; */
+}
+#dq{
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+}
+.q1{
+    position: relative;
+    left: 16px;
+}
+.imgom{
+    
+        cursor: pointer;
+        opacity: 0.9;
+        filter: grayscale(10%);
+    
+}
+ i{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: scale(0);
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+    color: white;
+}
+
+.imgom:hover{
+    transform: scale(1.6);
+}
+#popular img{
+    border-radius: 20px;
+}
+@media all and  (min-width:1000px){
+
+    body{
+        background-color: black;
+    }
+
+}
+#popular img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#k1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#k2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+/* .i1{
+    animation: scroll 3s linear infinite;
+}
+@keyframes scroll {
+    
+    100%{
+        transform: translateX(-250px);
+    }
+    
+} */
+/* .i2{
+    animation: scroll1 6s linear infinite;
+}
+@keyframes scroll1 {
+    0%{
+        transform: translateX(1px);
+    }
+    100%{
+        transform: translateY(-80px);
+    }
+    
+    
+} */
+#popular{
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#popular::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+
+
